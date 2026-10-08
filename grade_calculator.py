@@ -1,7 +1,7 @@
 """
 Student Grade Calculator
 
-Version: 1.0.0
+Version: 1.1.0
 """
 
 def calculate_average(marks):
@@ -20,11 +20,11 @@ def get_result(average):
 def main():
     student_name = input("Enter student name: ")
 
-    marks = [
-        float(input("Enter marks for subject 1: ")),
-        float(input("Enter marks for subject 2: ")),
-        float(input("Enter marks for subject 3: "))
-    ]
+    marks = []
+
+    for i in range(1, 6):
+        mark = float(input(f"Enter marks for subject {i}: "))
+        marks.append(mark)
 
     average = calculate_average(marks)
     result = get_result(average)

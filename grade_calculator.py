@@ -1,7 +1,7 @@
 """
 Student Grade Calculator
 
-Version: 1.1.0
+Version: 1.1.2
 """
 
 def calculate_average(marks):
@@ -12,7 +12,7 @@ def calculate_average(marks):
 
 def get_result(average):
     """Determine whether the student passed or failed."""
-    if average >= 50:
+    if average > 50:
         return "PASS"
     else:
         return "FAIL"

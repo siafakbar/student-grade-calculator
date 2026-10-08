@@ -5,7 +5,7 @@ and determines whether the student has passed or failed.
 
 ## Version
 
-1.0.0
+1.1.0
 
 ## Requirements
 
@@ -16,7 +16,7 @@ and determines whether the student has passed or failed.
 
     python grade_calculator.py
 
-Enter the student's name and marks for three subjects when prompted.
+Enter the student's name and marks for five subjects when prompted.
 
 ## Output
 

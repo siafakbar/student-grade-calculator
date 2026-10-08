@@ -1,7 +1,7 @@
 """
 Student Grade Calculator
 
-Version: 1.1.1
+Version: 1.1.2
 """
 
 def calculate_average(marks):
